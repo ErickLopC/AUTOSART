@@ -64,70 +64,14 @@ sudo systemctl start autostart.service
 sudo systemctl status autostart.service 
 ```
 
-## Instlacion de los drives para leer el Lidar desde la Jetson
+## Prueba de funcionamiento
 
-rplidar a1 Githud       
+Inicialmente se tiene al Turtleboot apagado, la Jetson desconectada 
 
-clonar el git                 
-
-Turtlebot2_src
-
-Turtlebot2$ catkin_make
-
-Verifica el puerto ls/dev/tty*        (en que puerto esta instalado el LIDAR )
-
-sudo chmod 777/dev/ttyUSB0                                                  ← (Se le asigna permiso)
-
-roslaunch rplidar_ros view_rplidar_a1.launch
-
-
-
-
-
-
-
-
-
-## Control del turtlebot2 desde la Jetson mediante cable
-
-
+1. Se prende el Turtlebbot
+2. Se conecta la Jetson
+3. Se debe de escuchar un tono tres veces consecutivas indicando que este levanto el roscore
 
 
 
 *********************************************
-Turtlebot Fisico
--------------------------------
-*****
-roscore
-cd catkin_ws
-source ./devel/setup.bash
- roslaunch turtlebot_bringup minimal.launch --screen
-roslaunch turtlebot_teleop keyboard_teleop.launch
-
-
-**************************************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Observaciones durante el proceso 
-
-Para conectar la pantalla a la Jetson(conectar sin conversores, Direccto a la HMI(1 cable) )
-
-
-
- --------------------
- en la jetson se debe de levantar el turtlebot 
- --------------------
- NO OLVIDAR EL SOURCE 
-  rosrun mov_turtle control_trayectoria_recta.py 
