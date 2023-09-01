@@ -1,21 +1,21 @@
 # AUTOSTART
 
 ## Configuraciones iniciales 
-1. Dirijirse a la Pagina de NVIDIA para desargar el jetpack (Dependiendo de la versión de Ubuntu que se tenga instalada en la computadora se elegirá la versión de Jetpack).
+1. Dirijirse a la Pagina de instalaremos[NVIDIA](https://developer.nvidia.com/embedded/jetpack-archive) para desargar el jetpack (Dependiendo de la versión de Ubuntu que se tenga instalada en la computadora se elegirá la versión de Jetpack).
 
     En nuestro caso tenemos instalado Ubuntu 18.04 en la computadora por lo cual            instalaremos[Jetpack 3.3.3](https://developer.nvidia.com/embedded/jetpack-3_3_3)
 
 
-3. Grabar la imagen en la SD
+5. Grabar la imagen en la SD
 
 
    Posteriormente se coloca la SD en la jetson para poder conertarla a la alimeacion y      poder inciar con la configuracion. 
 
-4. Instalar los drives para WIFI  "rtl88x2bu".  
+6. Instalar los drives para WIFI  "rtl88x2bu".  
 
-5. Istatalar ROS en la Jetson
+7. Istatalar ROS en la Jetson
 
-6. Confifurar el host
+8. Confifurar el host
    En la terminal ejecutar
 
 ```
