@@ -7,15 +7,15 @@
 
 
 5. Grabar la imagen en la SD
-   
-6. Posteriormente se coloca la SD en la jetson para poder conertarla a la alimeacion y      poder inciar con la configuracion
+
+6. Posteriormente se coloca la SD en la jetson, enseguida se conecta la Jetson a la fuente alineación
+
    
 7. Instalar los drives para WIFI  "rtl88x2bu".  
 
 8. Instalar ROS en la Jetson
 
-9. Confifurar el host
-   En la terminal ejecutar
+
 
 
 
