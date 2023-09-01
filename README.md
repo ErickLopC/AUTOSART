@@ -21,8 +21,7 @@
 
 ## Configuraciones en la Jetson para el autostart
 
-Una vez conectada la Jetson a la fuente de alimentacion se ejecuta la terminal
-
+Una vez conectada la Jetson a la fuente de alimentación, se ejecuta la terminal
 ```
 User=robotica
 [Install]
