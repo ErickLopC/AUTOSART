@@ -12,19 +12,12 @@
    
 5. Instalar los drives para WIFI  "rtl88x2bu".  
 
-7. Istatalar ROS en la Jetson
+7. Instalar ROS en la Jetson
 
 8. Confifurar el host
    En la terminal ejecutar
 
-```
-sudo gedit hosts
-```
-   Una vez despliega un archivo se configura de la manera siguiente. 
-   
-8. Copiar las carpetas o descargaslas desde
 
-9.Si se tiene configuradas varias redes de internet se tendría que realizar la siguiente configuración para que cuando esta inicie se conecte automáticamente a la red que se espera.
 
 ## --
 
