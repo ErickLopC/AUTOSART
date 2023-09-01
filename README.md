@@ -63,6 +63,7 @@ sudo systemctl enable autostart.service
 sudo systemctl start autostart.service
 sudo systemctl status autostart.service 
 ```
+Se cierra la ventana de comenandos se apaga la Jetson para realizar la prueba del autostart.
 
 ## Prueba de funcionamiento
 
