@@ -75,4 +75,9 @@ Inicialmente se tiene al Turtleboot apagado, la Jetson desconectada
 
 
 
+# Observaciones durante el proceso 
+
+Para conectar la pantalla a la Jetson(conectar sin conversores, Direccto a la HMI(1 cable) )
+
+
 *********************************************
