@@ -8,7 +8,7 @@
 
 5. Grabar la imagen en la SD
 
-6. Posteriormente se coloca la SD en la jetson, enseguida se conecta la Jetson a la fuente alineación
+6. Posteriormente se coloca la SD en la jetson, enseguida se conecta la Jetson a la fuente alimentación
 
    
 7. Instalar los drives para WIFI  "rtl88x2bu".  
