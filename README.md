@@ -21,7 +21,7 @@
 
 ## Configuraciones en la Jetson para el autostart
 
-Una vez conectada la Jetson a la fuente de alimentación, se ejecuta la terminal
+Una vez conectada la Jetson a la fuente de alimentación, se ejecuta en terminal
 
 ```
 sudo touch /usr/local/bin/autostart.sh
@@ -31,12 +31,12 @@ sudo touch autostart.service
 sudo gedit autostart.service 
 
 ```
-Ahora se modificara un archivo, ingreamos a la siguiente ruta  
+Ahora se modificara un archivo, ingresamos a la siguiente ruta  
 
 ```
 cd /etc/systemd/system
 ```
-
+Se agrega el siguiente codigo al documento que se abrio previamente
 ```
 [Unit]
 Description="Robot Service"
