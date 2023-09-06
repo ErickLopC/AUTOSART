@@ -22,6 +22,42 @@
 ## Configuraciones en la Jetson para el autostart
 
 Una vez conectada la Jetson a la fuente de alimentación, se ejecuta la terminal
+
+```
+sudo touch /usr/local/bin/autostart.sh
+sudo chmod +x /usr/local/bin/autostart.sh
+cd /etc/systemd/system
+sudo touch autostart.service
+sudo gedit autostart.service 
+
+```
+Ahora se modificara un archivo, ingreamos a la siguiente ruta  
+
+```
+cd /etc/systemd/system
+```
+
+```
+[Unit]
+Description="Robot Service"
+#After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/autostart.sh
+Restart=on-failure
+#StartLimitInterval=10
+RestartSec=10
+KillMode=process
+User=robotica
+
+[Install]
+WantedBy=multi-user.target
+```
+
+
+cd /etc/systemd/system
+
 ```
 User=robotica
 [Install]
