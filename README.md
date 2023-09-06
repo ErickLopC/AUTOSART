@@ -55,17 +55,8 @@ User=robotica
 WantedBy=multi-user.target
 ```
 
+Una vez configurado el scrip nos dirijimos a la raiz de la terminal y modificaremos el archivo autostart
 
-cd /etc/systemd/system
-
-```
-User=robotica
-[Install]
-WantedBy=multi-user.target
-```
-Una vez configurado 
-
-Se abre la carpeta del autostart.sh 
 ```
 sudo gedit /usr/local/bin/autostart.sh
 ```
@@ -95,9 +86,12 @@ roslaunch turtlebot_bringup minimal.launch &
 Se aguardan los cambios y se ejecutan los siguientes comandos
 
 ```
-sudo systemctl enable autostart.service
-sudo systemctl start autostart.service
-sudo systemctl status autostart.service 
+sudo systemctl enable autostart.service 
+sudo systemctl start  autostart.service 
+sudo systemctl status  autostart.service 
+sudo systemctl daemon-reload
+sudo systemctl restart  autostart.service
+
 ```
 Se cierra la ventana de comenandos se apaga la Jetson para realizar la prueba del autostart.
 
@@ -105,9 +99,9 @@ Se cierra la ventana de comenandos se apaga la Jetson para realizar la prueba de
 
 Inicialmente se tiene al Turtleboot apagado, la Jetson desconectada 
 
-1. Se prende el Turtlebbot
+1. Se conecta el Turtlebbot
 2. Se conecta la Jetson
-3. Se debe de escuchar un tono tres veces consecutivas indicando que este levanto el roscore
+3. Se debe de escuchar un tono tres veces consecutivas indicando que este levanto el roscore(ESO NOS INDICA QUE EL AUTOSATART SE CONFIGURO CORRECTAMENTE)
 
 
 
