@@ -2,6 +2,7 @@
 
 ## Configuraciones iniciales 
 1. Dirijirse a la Pagina de [NVIDIA](https://developer.nvidia.com/embedded/jetpack-archive) para desargar el jetpack.
+
    Hay diversas caracteristicas que se deben tomar encuenta al elegir el Jetpack como la versión de Ubuntu que se tenga instalada en la computadora .
 
     En nuestro caso tenemos instalado Ubuntu 18.04 en la computadora por lo cual instalaremos[Jetpack 3.3.3](https://developer.nvidia.com/embedded/jetpack-3_3_3)
